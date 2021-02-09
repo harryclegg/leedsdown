@@ -21,7 +21,7 @@ dedication: |
 abbreviations: "content/00-frontmatter/abbreviations" # path to .tex file with abbreviations
 
 ## bibliography
-bib-files: content/references.bib
+bibliography: content/references.bib
 # bib-pdf-heading: References           # default: References
 csl: theme/web/ieee.csl
 
