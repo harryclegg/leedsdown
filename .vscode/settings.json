@@ -15,5 +15,19 @@
         "**/out/**": true,
     },
     "latex-workshop.latex.search.rootFiles.exclude": ["**"],
-    "latex-workshop.latex.autoBuild.run": "never"
+    "latex-workshop.latex.autoBuild.run": "never",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "rmarkdown"
+    ],
+    "spellright.parserByClass": {
+        "rmarkdown": {
+            "parser": "markdown"
+        }
+    }
 }
